@@ -760,6 +760,14 @@ footer.sticky-bottom {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
+
+        .honor {
+          color: var(--global-highlight-color) !important;
+          font-weight: bold;
+          background-color: rgba(var(--global-highlight-color-rgb), 0.1);
+          padding: 0.2rem 0.5rem;
+          border-radius: 0.3rem;
+        }
       }
 
       .title {
